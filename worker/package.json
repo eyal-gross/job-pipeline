@@ -1,0 +1,9 @@
+{
+  "name": "apply-runner",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Submits approved practice-tier job applications from the Job Pipeline board using Playwright on a dedicated Chrome profile.",
+  "scripts": { "run": "node run.mjs", "probe": "node probe.mjs" },
+  "dependencies": { "playwright": "^1.49.0" }
+}

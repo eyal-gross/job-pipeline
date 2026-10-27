@@ -1,0 +1,37 @@
+# dependencies and tooling
+node_modules/
+.netlify/
+.claude/
+
+# secrets and private config (templates are committed as *.example*)
+.env
+.env.*
+!.env.example
+board/.env
+worker/config.local.json
+worker/reviewer/board-site.json
+*.har
+cookies*.json
+
+# runtime output: logs, run state, evidence (it names real companies and holds what was sent)
+logs/
+worker/logs/
+worker/reviewer/state.json
+worker/reviewer/digest.md
+worker/reviewer/deploys.jsonl
+worker/reviewer/seeds-state.json
+worker/reviewer/discover-*.json
+worker/reviewer/ats-tally*.json
+worker/reviewer/supply-history.jsonl
+worker/reviewer/tmp/
+board/tests/payloads.jsonl
+board/seed-state.json
+obs/obs.db
+obs/obs.db-*
+obs/raw/
+obs/evidence/
+obs/backups/
+applications/
+cvs/
+answer-bank.md
+LOG.md

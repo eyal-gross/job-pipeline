@@ -1,0 +1,68 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# internal files - never serve them publicly
+[[redirects]]
+  from = "/ROUTINE-PROMPT.md"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/seed-state.json"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/package.json"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/package-lock.json"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/deno.lock"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/ROUTINE-MAIL-PROMPT.md"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/ROUTINE-HUNT-PROMPT.md"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/tests/*"
+  to = "/404"
+  status = 404
+  force = true
+
+[[redirects]]
+  from = "/tools/*"
+  to = "/404"
+  status = 404
+  force = true
+
+# server function source - never serve it publicly (security audit 27 Oct 2026)
+[[redirects]]
+  from = "/netlify/*"
+  to = "/404"
+  status = 404
+  force = true

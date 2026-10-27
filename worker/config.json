@@ -1,0 +1,13 @@
+{
+  "boardLocal": "http://localhost:8899",
+  "boardLive": "https://your-board.netlify.app",
+  "envFile": "../board/.env",
+  "cvsDir": "../cvs/applications",
+  "applicationsDir": "../applications",
+  "alertEmail": "you@example.com",
+  "maxPerRun": 3,
+  "perCardMs": 240000,
+  "confirmMs": 30000,
+  "linkedinFeed": false,
+  "discoverLive": false
+}

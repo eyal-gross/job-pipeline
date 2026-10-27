@@ -1,0 +1,11 @@
+{
+  "firstName": "Jane",
+  "lastName": "Doe",
+  "email": "you@example.com",
+  "phone": "+972 50 000 0000",
+  "linkedin": "https://www.linkedin.com/in/your-profile",
+  "city": "Tel Aviv",
+  "country": "Israel",
+  "personalNote": "Hi, I am applying for {role}. My CV is attached.",
+  "gender": ""
+}

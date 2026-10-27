@@ -1,0 +1,6 @@
+{
+ "obs": 0,
+ "sorter": 0,
+ "at": "2026-10-22T19:55:20Z",
+ "note": "All four suites pass with the local board started by deploy-board.mjs itself (netlify dev with ROUTINE_FIRE_URL + the fire-catcher). The 3+3 failures seen on 22 Oct came from a stale 20 Oct dev server without that environment. A deploy may not add a single failure."
+}

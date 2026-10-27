@@ -1,0 +1,11 @@
+{
+  "siteId": "00000000-0000-0000-0000-000000000000",
+  "live": "https://your-board.netlify.app",
+  "account": "your-netlify-account-slug",
+  "tokenEnv": "../../board/.env",
+  "budget": 300,
+  "reserve": 60,
+  "deployCredits": 15,
+  "minHoursBetweenDeploys": 24,
+  "otherCreditsPerDay": 1
+}
